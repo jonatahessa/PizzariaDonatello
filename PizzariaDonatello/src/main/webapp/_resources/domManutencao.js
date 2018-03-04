@@ -3,7 +3,7 @@ function main() {
 }
 
 function hideShowBroto() {
-  if (document.querySelector("#broto").style.display == 'block' && document.querySelector("#select-tipo").value == 'PROMOCAO') {
+  if (document.querySelector("#select-tipo").value == 'PROMOCAO') {
     document.querySelector("#broto").style.display = 'none';
   } else {
     document.querySelector("#broto").style.display = 'block';

@@ -10,6 +10,7 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./_resources/estiloManutencao.css">
       <title>Manutenção</title>
     </head>
     <body>
@@ -23,7 +24,7 @@
           <div class="row justify-content-end">
             <div class="col-3">
               <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opções</button>
+                <button id="options" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opções</button>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="AbrirEditar">Novo Produto</a>
                   <a class="dropdown-item" href="Logout">Sair</a>
@@ -34,7 +35,6 @@
       </section>
 
       <section class="container-fluid">
-
             <div id="pizzas" class="row justify-content-center">
                 <table class="col-12 table table-hover">
                   <thead>

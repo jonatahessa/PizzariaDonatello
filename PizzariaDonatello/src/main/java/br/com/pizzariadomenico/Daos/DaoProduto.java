@@ -236,7 +236,7 @@ public class DaoProduto {
             produto.setNome(result.getString("NOME"));
             produto.setDescricao(result.getString("DESCRICAO"));
             produto.setPreco(result.getString("PRECO"));
-            produto.setPreco(result.getString("BROTO"));
+            produto.setPrecoBroto(result.getString("BROTO"));
             produto.setAtivo(result.getString("ATIVO"));
             produto.setTipo(result.getString("TIPO"));
         }

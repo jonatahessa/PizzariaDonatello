@@ -181,6 +181,8 @@
                     </div>
                     <div class="modal-body">
                         <ul class="col-12 cardapios">
+                          <p class="grande-broto">Grande</p>
+                          <p class="grande-broto">Broto</p>
                             <c:forEach var="doce" items="${doces}">
                                 <li class="menu-category titulopreco">
                                     <div class="">

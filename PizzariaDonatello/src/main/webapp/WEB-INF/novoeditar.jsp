@@ -10,8 +10,8 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-      <script src="./_resources/domManutencao.js" type="text/javascript"></script>
       <link rel="stylesheet" href="./_resources/estiloNovoEditar.css">
+      <script src="./_resources/domManutencao.js" type="text/javascript"></script>
       <title>Gerenciar</title>
     </head>
     <body>
@@ -45,13 +45,13 @@
                   </div>
 
                   <div id="preco" class="form-group">
-                      <label for="valorProduto">Preço</label>
+                      <label for="">Preço</label>
                       <input class="form-control" type="text" value="${produto.preco}" name="preco"/>
                   </div>
 
                   <div id="broto" class="form-group">
-                      <label for="valorProduto">Broto</label>
-                      <input class="form-control" type="text" value="${produto.precoBroto}" name="broto"/>
+                      <label for="">Broto</label>
+                      <input class="form-control" type="text" value="${produto.precoBroto}" name="precoBroto"/>
                   </div>
 
                   <div class="form-inline">
