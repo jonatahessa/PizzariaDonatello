@@ -57,7 +57,7 @@ public class Salvar extends HttpServlet {
                 pizza.setNome(request.getParameter("nome"));
                 pizza.setDescricao(request.getParameter("descricao"));
                 pizza.setPreco(request.getParameter("preco"));
-                pizza.setPrecoBroto(request.getParameter("broto"));
+                pizza.setPrecoBroto(request.getParameter("precoBroto"));
                 pizza.setTipo(request.getParameter("tipo"));
                 pizza.setAtivo(request.getParameter("ativo"));
 

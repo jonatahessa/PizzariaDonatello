@@ -45,7 +45,7 @@
             <div class="row justify-content-center">
               <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded">
                 <h2 class="text-center text-light logo"><strong>PIZZARIA</strong></h2>
-                <h1 class="text-center text-warning display-5 logo"><strong><i>DONATELLO</i></strong></h1>
+                <h1 class="text-center text-warning display-4 col-12 logo donatello"><strong><i>DONATELLO</i></strong></h1>
                 <h3 class="text-center fonte-mark text-dark">31 anos de Tradição</h3>
               </div>
             </div>
@@ -153,9 +153,9 @@
                             <c:forEach var="pizza" items="${pizzas}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${pizza.codigo} - ${pizza.nome}</h5>
-                                        <h5 class="preco">${pizza.preco}</h5>
-                                        <h5 class="preco">${pizza.precoBroto}</h5>
+                                        <p class="titulo"><strong>${pizza.codigo} - ${pizza.nome}</strong></p>
+                                        <p class="preco"><strong>${pizza.preco}</strong></p>
+                                        <p class="preco"><strong>${pizza.precoBroto}</strong></p>
                                         <p class="descricao">${pizza.descricao}</p>
 
                                     </div>
@@ -186,8 +186,9 @@
                             <c:forEach var="doce" items="${doces}">
                                 <li class="menu-category titulopreco">
                                     <div class="">
-                                        <h5 class="titulo">${doce.codigo - 78} - ${doce.nome}</h5>
-                                        <h5 class="preco">${doce.preco}</h5>
+                                        <p class="titulo"><strong>${doce.codigo - 78} - ${doce.nome}</strong></p>
+                                        <p class="preco"><strong>${doce.preco}</strong></p>
+                                        <p class="preco"><strong>${doce.precoBroto}</strong></p>
                                         <p class="descricao">${doce.descricao}</p>
                                     </div>
                                 </li>
